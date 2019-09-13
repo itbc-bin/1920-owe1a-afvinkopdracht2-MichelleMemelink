@@ -17,7 +17,7 @@ AATAGCCGTAAATAAAACTAAGGGTGTAAAAC"""
 
 #legnte bereken zonder enters.
 lengte_mRNA_drosophila_melanogaster = len(mRNA_drosophila_melanogaster.replace("\n",""))
-print ("lengte_genoom_drosophila_melanogaster:", (lengte_mRNA_drosophila_melanogaster))
+print ("lengte_mRNA_drosophila_melanogaster:", (lengte_mRNA_drosophila_melanogaster))
 
 #aantal en CG
 aantal_c =mRNA_drosophila_melanogaster.count("C")
